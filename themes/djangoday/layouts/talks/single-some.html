@@ -1,0 +1,14 @@
+{{- define "bodyclass" -}}some{{- end -}}
+{{- define "main" -}}
+
+{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .CurrentSection.Params.img_name)) -}}
+{{- $new := "" -}}
+{{- $new = $original.Fill "400x400 Center" -}}
+
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+
+<h1>{{ .CurrentSection.Params.talk_by }}</h1>
+<h1 class="secondary-main-header">{{ .CurrentSection.Title | markdownify }}</h1>
+
+{{- end -}}
+

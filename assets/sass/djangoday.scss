@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(/static/fonts/source_sans_pro_normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(/static/fonts/source_sans_pro_italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(/static/fonts/source_sans_pro_bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/static/fonts/roboto_mono_normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/static/fonts/roboto_mono_bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-monospace: 'Roboto Mono', monospace;
+
+//$font-size-base: 1.05rem;
+
+$primary: #00B85C;
+$secondary: #141B41;
+$success:  #00B85C;
+$info:   #4EA5D9;
+$warning:  #9368B7;
+$danger:   #DB162F;
+$dark:   #444444;
+
+@import "bootstrap/bootstrap";
+
+body, html {
+  min-width: 300px;
+  height:100%;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-weight: bold;
+}
+
+h1
+{
+    font-family: $font-family-monospace;
+    background-color: $warning;
+    padding: 10px 15px;
+    //border: 3px dotted $primary;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transform: rotate(-1deg);
+    width: auto;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.main-update {
+    padding: 20px 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: $font-family-monospace;
+}
+
+.talktime
+{
+    color: $primary;
+}
+
+footer
+{
+    padding: 20px;
+    background-color: $success;
+    color: #fff;
+    font-family: $font-family-monospace;
+    font-size: 90%;
+    a, a:active, a:visited {
+        color: #FFF;
+        text-decoration: underline;
+    }
+
+   min-height:100px;   /* Height of the footer */
+}
+
+#article
+{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 300px);
+    min-height: -moz-calc(100% - 300px);
+    min-height: calc(100% - 300px);
+}
+
+.img-speaker
+{
+    @extend .rounded-circle;
+    border: 3px dotted $secondary;
+    padding: 2px;
+    margin: 20px;
+}
+
+ul.sponsors {
+  display: flex;
+  flex-direction: row;       /* horizontal alignment of flex items
+                                    (default value; can be omitted) */
+  align-items: stretch;      /* will apply equal heights to flex items
+                                    (default value; can be omitted) */
+  flex-wrap: wrap;
+  height: 100%;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  gap: 10px;
+
+  li {
+    height: 100px;
+    width: 30%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  a.sponsor,
+  a.sponsor:hover
+  {
+    text-decoration: none;
+    display: block;
+  }
+  a img {
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+  background-color: $secondary;
+}
+
+.djangoday-logo
+{
+    background-color: $primary;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: roboto mono;
+  color: rgba(255,255,255,1);
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255,255,255,1);
+  text-decoration: underline;
+}
+
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #fff;
+}
+
+body {
+  color: #212529;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+a h2 {
+    color: #212529;
+}
+
+.container {
+  max-width: 800px;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+code {
+  padding: 2px 4px;
+  color: inherit; 
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: .9em;
+}
+
+blockquote,
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  border-left: 5px solid #6c757d;
+}
+
+body.some {
+    h1 {
+        max-width: 680px;
+    }
+    nav.custom-navbar {
+        display: none;
+    }
+    .container {
+        max-width: 1200px;
+        padding: 0 30px;
+    }
+    .djangoday-logo-link {
+        display: none;
+    }
+    .img-speaker {
+        margin-top: -100px;
+        border: 5px solid #fff;
+        padding: 0;
+    }
+    #footer-pony {
+        margin-top: -40px;
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .secondary-main-header {
+        background-color: $primary;
+        margin-top: -15px;
+    }
+    p {
+        font-size: 32px;
+    }
+    .main-update {
+        font-size: 32px;
+    }
+    .main-update .emojis {
+        display: none;
+    }
+}

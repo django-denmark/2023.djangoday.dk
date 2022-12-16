@@ -1,0 +1,11 @@
+--2020-08-14 13:53:15--  https://fonts.gstatic.com/s/robotomono/v12/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2
+Resolving fonts.gstatic.com (fonts.gstatic.com)... 216.58.211.3, 2a00:1450:400f:808::2003
+Connecting to fonts.gstatic.com (fonts.gstatic.com)|216.58.211.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12312 (12K) [font/woff2]
+Saving to: ‘L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2’
+
+     0K .......... ..                                         100% 12.9M=0.001s
+
+2020-08-14 13:53:15 (12.9 MB/s) - ‘L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2’ saved [12312/12312]
+

@@ -1,0 +1,83 @@
+{{- define "main" -}}
+
+{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
+{{- $new := "" -}}
+{{- $new = $original.Fill "150x150 Center" -}}
+
+<h1>{{ .Title | markdownify }}</h1>
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+<h5>
+{{ .Params.talk_by }}
+<span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
+{{ if .Params.remote }}
+remote 📽️
+{{ end }}
+{{ if .Params.stage }}
+stage 🎤
+{{ end }}
+</h5>
+
+<p>
+{{ if .Params.twitter }}
+<a href="https://twitter.com/{{ .Params.twitter }}" target="_blank">🐦 @{{ .Params.twitter }}</a>
+{{ end }}
+{{ if .Params.slides }}
+<a href="{{ .Params.slides }}" target="_blank">🎞️ View slides</a>
+{{ end }}
+</p>
+
+{{ .Content }}
+
+{{ if .Params.youtube_id }}
+
+<h4>Watch the talk</h4>
+
+<div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+{{ end }}
+
+{{ if .Params.notes }}
+
+<h4>Notes by <a href="https://twitter.com/aspigirlcodes" target="_blank">@Sara Peeters</a></h4>
+
+{{- $original2 := ((site.GetPage "/sketch-notes").Resources.GetMatch (printf "*%s*" .Params.notes)) -}}
+{{- $new2 := "" -}}
+{{- $new2 = $original2.Fit "1000x2000" -}}
+
+<a href="{{ $original2.Permalink }}" target="_blank"><img src="{{ $new2.Permalink }}" alt="sketch notes for talk" class="img-responsive" /></a>
+
+{{ end }}
+
+
+{{- end -}}
+
+{{- define "description" -}}
+{{ .Summary | truncate 200 }}
+{{- end -}}
+
+{{- define "og_description" -}}
+{{ .Summary | truncate 200 }}
+{{- end -}}
+
+{{- define "itemprop_description" -}}
+{{ .Summary | truncate 200 }}
+{{- end -}}
+
+{{- define "twitter_description" -}}
+{{ .Summary | truncate 200 }}
+{{- end -}}
+
+{{- define "twitter_image" -}}{{- $some_preview := ((site.GetPage "/some").Resources.GetMatch (printf "*%s627*" .File.ContentBaseName)) }}{{ if .Params.notes }}{{- $original3 := ((site.GetPage "/sketch-notes").Resources.GetMatch (printf "*%s*" .Params.notes)) -}}{{- $new3 := "" -}}{{- $new3 = $original3.Fill "1200x600" -}}{{ $new3.Permalink }}
+{{ else if $some_preview }}{{- $new3 := "" -}}{{- $new3 = $some_preview.Fill "1200x627" -}}{{ $new3.Permalink }}{{ else }}{{ "/static/some_preview.png" | absURL }}{{ end }}
+{{- end -}}
+
+{{- define "itemprop_image" -}}
+{{- $some_preview := ((site.GetPage "/some").Resources.GetMatch (printf "*%s*" .File.ContentBaseName)) }}{{ if .Params.notes }}{{- $original3 := ((site.GetPage "/sketch-notes").Resources.GetMatch (printf "*%s*" .Params.notes)) -}}{{- $new3 := "" -}}{{- $new3 = $original3.Fill "1200x627" -}}{{ $new3.Permalink }}{{ else if $some_preview }}{{- $new3 := "" -}}{{- $new3 = $some_preview.Fill "1200x600" -}}{{ $new3.Permalink }}{{ else }}{{ "/static/some_preview.png" | absURL }}{{ end }}
+{{- end -}}
+
+{{- define "og_image" -}}
+{{- $some_preview := ((site.GetPage "/some").Resources.GetMatch (printf "*%s*" .File.ContentBaseName)) }}{{ if .Params.notes }}{{- $original3 := ((site.GetPage "/sketch-notes").Resources.GetMatch (printf "*%s*" .Params.notes)) -}}{{- $new3 := "" -}}{{- $new3 = $original3.Fill "1200x627" -}}{{ $new3.Permalink }}{{ else if $some_preview }}{{- $new3 := "" -}}{{- $new3 = $some_preview.Fill "1200x600" -}}{{ $new3.Permalink }}{{ else }}{{ "/static/some_preview.png" | absURL }}{{ end }}
+{{- end -}}
+
