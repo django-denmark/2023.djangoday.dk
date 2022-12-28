@@ -48,13 +48,13 @@ $font-family-monospace: 'Roboto Mono', monospace;
 
 //$font-size-base: 1.05rem;
 
-$primary: #00B85C;
-$secondary: #141B41;
-$success:  #00B85C;
-$info:   #4EA5D9;
-$warning:  #9368B7;
-$danger:   #DB162F;
-$dark:   #444444;
+$primary: #DA4167;
+$secondary: #00120B;
+$success:  #C9C9EE;
+$info:   #D8E4FF;
+$warning:  #F4D35E;
+$danger:   #DA4167;
+$dark:   #00120B;
 
 @import "bootstrap/bootstrap";
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5
 h1
 {
     font-family: $font-family-monospace;
-    background-color: $warning;
+    background-color: $secondary;
     padding: 10px 15px;
     //border: 3px dotted $primary;
     color: #fff;
@@ -99,7 +99,7 @@ h1
 footer
 {
     padding: 20px;
-    background-color: $success;
+    background-color: $primary;
     color: #fff;
     font-family: $font-family-monospace;
     font-size: 90%;
