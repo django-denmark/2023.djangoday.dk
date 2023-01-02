@@ -1,6 +1,6 @@
-baseURL = "https://2022.djangoday.dk"
+baseURL = "https://2023.djangoday.dk"
 languageCode = "en-us"
-title = "Django Day Copenhagen 2022"
+title = "Django Day Copenhagen 2023"
 theme = "djangoday"
 
 [taxonomies]

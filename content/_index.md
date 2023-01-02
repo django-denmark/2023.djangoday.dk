@@ -1,33 +1,22 @@
 ---
-title: "Welcome - Django Day Copenhagen 2022"
-date: "2021-11-29"
-description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen, April 8th 2022"
+title: "Welcome - Django Day Copenhagen 2023"
+date: "2022-12-27"
+description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen, April 14th 2023"
 draft: false
 
 ---
 
-# See you in 2023 👋
-
-The tentative date for Django Day Copenhagen 2023 is **April 14th**. This will be the Friday before Easter break.
-
-# Recordings up 📽️
-
-Have a look at each talk [below](#program) and you will find the recorded segment with slides and Q&A session.
-
 # Latest updates
 
-* [Venue](/venue/) (Onkel Danny's Plads / Uncle Danny's Plaza) and date (April 8th) ✅
-* [Program](#program) announced ✅
-    <!-- * Website up and running ✅ -->
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-info">FREE STREAMING</span> ✅ 
-* Venue tickets <span class="badge badge-pill badge-warning">SOLD OUT</span> ✅ 
-* Early Bird discount <span class="badge badge-pill badge-warning">SOLD OUT</span> ✅ 
-* VENUE PARTY! We end with a party at the venue, so don't make plans for Friday night 🎉 🎉 ✅ 
-* [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span> ✅ 
-* Looking for Django Day 2020 videos? [Find them here](https://2020.djangoday.dk/#program) ✅ 
+* [Venue](/venue/) ⏳
+* [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
+* Venue tickets <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
+* Early Bird discount <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
+* Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
-Djangonauts from in and around Denmark are meeting up for the third edition of
-Django Day, to be held on April 8th, 2022. It will be a full day of talks,
+Djangonauts from in and around Denmark are meeting up for the fourth edition of
+Django Day Copenhagen, to be held on April 14th, 2022. It will be a full day of talks,
 either to be experienced **online -or- at our venue**.
 
 Come and meet your local and excellent community and share with them.
@@ -44,10 +33,6 @@ event, meaning that you won't have to miss anything. The day will end
 with a round of **lightning talks**, which can be submitted on the day of the event,
 and be drawn during the day.
 
-**UPDATE 2022-03-30** The schedule is now visible below, subject to any changes that might occur. Please refer to this very page for any changes.
-
-{{< talklist >}}
-
 
 # Supporters
 
@@ -55,80 +40,6 @@ and be drawn during the day.
 
 
 <ul class="sponsors">
-
-<li><a href="https://www.magenta.dk/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_magenta.png"
-command="Fit"
-options="300x100"
-alt="Magenta"
-class="img-sponsor"
->}}
-</a></li>
-
-<li><a href="https://www.letsgofleetsystems.com/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_letsgo_fleet.png"
-command="Fit"
-options="300x100"
-alt="LetsGo Fleet"
-class="img-sponsor"
->}}
-</a></li>
-
-<li><a href="https://kolo.app/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_kolo_app.png"
-command="Fit"
-options="300x100"
-alt="Kolo.app"
-class="img-sponsor"
->}}
-</a></li>
-
-<li><a href="https://www.divio.com/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_divio.png"
-command="Fit"
-options="300x100"
-alt="Divio"
-class="img-sponsor"
->}}
-</a></li>
-
-<li><a href="https://www.sonofatailor.com/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_son_of_tailor.png"
-command="Fit"
-options="300x100"
-alt="Son of a Tailor"
-class="img-sponsor"
->}}
-</a></li>
-
-<li>
-<a href="http://foxleytalent.com/" target="_blank" class="sponsor">
-{{< imgProc
-img="logo_foxley.png"
-command="Fit"
-options="300x100"
-alt="Foxley Talent"
-class="img-sponsor"
->}}
-</a>
-</li>
-
-<li>
-<a href="https://www.sdnielsen.dk/" target="_blank" class="sponsor">
-{{< imgProc
-img="sdnielsen.png"
-command="Fit"
-options="300x100"
-alt="SD Nielsen"
-class="img-sponsor"
->}}
-</a>
-</li>
 
 </ul>
 
@@ -144,6 +55,10 @@ If you want to help us with Django Day, please send us an email to
 [info@django-denmark.org](mailto:info@django-denmark.org).
 
 # Previous events
+
+## Django Day Copenhagen 2022
+
+The event is archived here: [2022.djangoday.dk](https://2022.djangoday.dk)
 
 ## Django Day Copenhagen 2021
 

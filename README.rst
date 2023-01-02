@@ -1,9 +1,9 @@
-Django Day Copenhagen 2022 website
+Django Day Copenhagen 2023 website
 ==================================
 
 WIP: Until the event is announced, this is where we can work on the new website
 
-Live version: https://2022.djangoday.dk
+Live version: https://2023.djangoday.dk
 
 
 Local development
@@ -24,7 +24,7 @@ in developing something for the website.
 
 To download and install Hugo on Ubuntu/Debian, use the following commands::
 
-  HUGO_VERSION="0.69.2"
+  HUGO_VERSION="0.109.0"
   wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
   sudo apt install ./hugo.deb
 
