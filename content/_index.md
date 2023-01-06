@@ -89,4 +89,3 @@ If you want to help us with Django Day, please send us an email to
     </li>
 </ul>
 
-<hr>
