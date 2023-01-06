@@ -56,35 +56,36 @@ If you want to help us with Django Day, please send us an email to
 
 # Previous events
 
-## Django Day Copenhagen 2022
+<ul class="timeline">
+    <li>
+        <a href="https://2022.djangoday.dk">Django Day Copenhagen 2022</a>
+        <a href="https://2022.djangoday.dk" class="float-right">April 8th, 2022</a>
+        <p>First in-person event after the pandemic! It was held at Onkel Danny's Plads.</p>
+    </li>
+    <li>
+        <a href="https://2021.djangoday.dk">Django Day Copenhagen 2021</a>
+        <a href="https://2021.djangoday.dk" class="float-right">Postponed</a>
+        <p>Sadly this was postponed to 2021 due to the pandemic. Link contains archive of planned talks and speakers.</p>
+    </li>
+    <li>
+        <a href="https://djangogirls.org/en/copenhagen/">Django Girls Copenhagen 2021</a>
+        <a href="https://djangogirls.org/en/copenhagen/" class="float-right">April 10th, 2021</a>
+        <p>Event was held online, click link for more info.</p>
+    </li>
+    <li>
+        <a href="https://2020.djangoday.dk">Django Day Copenhagen 2020</a>
+        <a href="https://2020.djangoday.dk" class="float-right">Sept 25th, 2020</a>
+        <p>First event held online due to the pandemic! But also accomodated 50 people in person!</p>
+    </li>
+    <li>
+        <a href="https://2019.djangocon.eu/">DjangoCon Europe 2019</a>
+        <a href="https://2019.djangocon.eu/" class="float-right">April 10-14th, 2019</a>
+        <p>We originally decided that we would do another Django Day 2019 in Copenhagen. But then we got pretty caught up in organizing DjangoCon Europe 2019 in Copenhagen and postponed Django Day.</p>
+    </li>
+    <li>
+        <a href="https://2018.djangoday.dk/">DjangoDay 2018</a>
+        <a href="https://2018.djangoday.dk/" class="float-right">April 17th, 2018</a>
+        <p>Django Copenhagen Day 2018 (slides etc. archived at link above) was a fantastic start for Django Denmark. Before this, we had smaller meetups for many years, but as they slowed down, we decided to try an bigger gathering.</p>
+    </li>
+</ul>
 
-The event is archived here: [2022.djangoday.dk](https://2022.djangoday.dk)
-
-## Django Day Copenhagen 2021
-
-Postponed to 2022.
-
-## Django Girls Copenhagen 2021
-
-Event was held online, more information here: [djangogirls.org/en/copenhagen/](https://djangogirls.org/en/copenhagen/)
-
-## Django Day Copenhagen 2020
-
-The event is archived here: [2020.djangoday.dk](https://2020.djangoday.dk)
-
-## DjangoCon Europe 2019
-
-We originally decided that we would do another Django Day 2019 in Copenhagen.
-But then we got pretty caught up in organizing DjangoCon Europe 2019 in
-Copenhagen and postponed Django Day.
-
-The event is archived here: [2019.djangocon.eu](https://2019.djangocon.eu)
-
-## DjangoDay 2018
-
-Django Copenhagen Day 2018 (slides etc. archived [here](https://2018.djangoday.dk/))
-was a fantastic start for Django Denmark. Before this, we had smaller meetups
-for many years, but as they slowed down, we decided to try an bigger
-gathering.
-
-<hr>
