@@ -16,7 +16,7 @@ draft: false
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
-Django Day Copenhagen, to be held on April 14th, 2022. It will be a full day of talks,
+Django Day Copenhagen, to be held on April 14th, 2023. It will be a full day of talks,
 either to be experienced **online -or- at our venue**.
 
 Come and meet your local and excellent community and share with them.
