@@ -9,10 +9,8 @@ draft: false
 # Latest updates
 
 * [Venue](/venue/) ⏳
-* [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
-* Venue tickets <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
-* Early Bird discount <span class="badge badge-pill badge-warning">UPCOMING</span> ⏳
+* [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
+* [Ticket sales](/tickets/) ⏳
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
@@ -36,7 +34,7 @@ and be drawn during the day.
 
 # Supporters
 
-*Please get in touch about supporting the event*
+*Corporate Supporters will be announced here.*
 
 
 <ul class="sponsors">
