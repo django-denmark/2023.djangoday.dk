@@ -57,7 +57,7 @@ Submit your proposal by writing: cfp@django-denmark.org - please include:
 * Talk title
 * Description (50-100 words) + abstract (any length, markdown formatting allowed)
 * Profile photo
-* Talk length: 25 or 40 minutes (or both if flexible)
 * Whether your participation is conditioned by travel support
 * First-time speaking: Yes/no
 * Target audience: All/beginner/advanced
+* Anything else we should accommodate?
