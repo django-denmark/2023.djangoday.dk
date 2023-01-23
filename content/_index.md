@@ -10,7 +10,7 @@ draft: false
 
 * [Venue](/venue/) ⏳
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
-* [Ticket sales](/tickets/) ⏳
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span> ✅
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
