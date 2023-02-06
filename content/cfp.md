@@ -42,6 +42,8 @@ We are looking for:
 
 ## Deadline 🔥
 
+**We'll announce a new deadline soon**
+
 Submit before **March 1st 2022 23:59:59 UTC+2**. The final program will be announced on April 1st (perhaps with a joke).
 
 
