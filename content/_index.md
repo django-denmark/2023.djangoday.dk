@@ -8,7 +8,7 @@ draft: false
 
 # Latest updates
 
-* **We are announcing a new date in the fall 2023.**
+* **TBA: The event is moved to autumn 2023. We are announcing a new date soon.**
 * [Venue](/venue/) ⏳
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
 * [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">REOPENING SOON</span> ⏲️
