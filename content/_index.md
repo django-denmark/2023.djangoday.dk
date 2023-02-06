@@ -1,20 +1,21 @@
 ---
 title: "Welcome - Django Day Copenhagen 2023"
 date: "2022-12-27"
-description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen, April 14th 2023"
+description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen 2023 - New date TBA"
 draft: false
 
 ---
 
 # Latest updates
 
+* **TBA: The event is moved to autumn 2023. We are announcing a new date soon.**
 * [Venue](/venue/) ⏳
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span> ✅
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">REOPENING SOON</span> ⏲️
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
-Django Day Copenhagen, to be held on April 14th, 2023. It will be a full day of talks,
+Django Day Copenhagen, to be held on **DATE TBA**. It will be a full day of talks,
 either to be experienced **online -or- at our venue**.
 
 Come and meet your local and excellent community and share with them.
