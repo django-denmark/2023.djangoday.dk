@@ -44,7 +44,7 @@ We are looking for:
 
 **We'll announce a new deadline soon**
 
-Submit before **September 10th 2023 23:59:59 UTC+2**.
+Submit before **August 21th 2023 23:59:59 UTC+2**.
 The final program will be announced on September 1st.
 
 
