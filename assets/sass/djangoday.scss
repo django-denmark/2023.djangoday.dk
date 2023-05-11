@@ -80,6 +80,13 @@ h1
     font-size: 20px;
     font-weight: bold;
     font-family: $font-family-monospace;
+    a {
+      color: #fff;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
 }
 
 .talktime
