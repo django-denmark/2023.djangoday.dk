@@ -11,7 +11,7 @@ draft: false
 * **October 6th, 2023**
 * [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span> ✅ 
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">REOPENING SOON</span> ⏲️
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span> ✅
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
