@@ -35,8 +35,22 @@ and be drawn during the day.
 
 # Supporters
 
-*Corporate Supporters will be announced here.*
+*Corporate Supporters will be announced here. We thank everyone for their support here, which is indispensable to make Django Day take place.*
 
+
+<ul class="sponsors">
+
+<li><a href="https://ao.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_ao.png"
+command="Fit"
+options="300x80"
+alt="AO"
+class="img-sponsor"
+>}}
+</a></li>
+
+</ul>
 
 <ul class="sponsors">
 
