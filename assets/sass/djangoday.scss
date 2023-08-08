@@ -154,10 +154,12 @@ ul.sponsors {
   {
     text-decoration: none;
     display: block;
+    text-align: center;
   }
   a img {
-    width: 100%;
+    max-width: 100%;
     max-height: 100%;
+    display: inline;
   }
 }
 
