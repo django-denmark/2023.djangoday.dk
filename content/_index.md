@@ -33,6 +33,9 @@ with a round of **lightning talks**, which can be submitted on the day of the ev
 and be drawn during the day.
 
 
+{{< talklist >}}
+
+
 # Supporters
 
 *Corporate Supporters will be announced here. We thank everyone for their support here, which is indispensable to make Django Day take place.*
