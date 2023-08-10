@@ -87,6 +87,12 @@ h1
       color: #000;
       text-decoration: underline;
     }
+    .emojis {
+      background-color: $success;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 4px;
+    }
 }
 
 .talktime
