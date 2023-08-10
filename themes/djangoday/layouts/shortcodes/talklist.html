@@ -6,7 +6,7 @@
 {{ if .Params.venue_event }}
 
   <h2>
-  <span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
+  <!--<span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>-->
   {{ .Title }}
   </h2>
 
@@ -26,7 +26,7 @@
   <img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
 
   <h2 class="no-link-styling">
-  <span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
+  <!--<span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>-->
   {{ .Title }}
   </h2>
   </a>
@@ -50,7 +50,7 @@
   {{ end }}
 
 {{ if .Content }}
-  {{ .Content | safeHTML | truncate 200 }}
+  {{ .Content | plainify | safeHTML | truncate 200 }}
 {{ end }}
 
 
@@ -63,9 +63,11 @@
 
 {{ end }}
 
-<!--
-{{ range (seq (sub 9 (len ($talks)))) }}
+{{ $slots_left := (sub 9 (len ($talks))) }}
 
+<!-- range (seq (sub 9 (len ($talks)))) -->
+
+{{ if (gt $slots_left 0) }}
   {{- $original := ((site.GetPage "/talks").Resources.GetMatch "pony.png") -}}
   {{- $new := "" -}}
   {{- $new = $original.Fill "150x150" -}}
@@ -74,7 +76,7 @@
   <h2 class="no-link-styling">
   More exciting speakers to be announced...
   </h2>
-  <p>Are you interested? We would love you hear from you: <a href="/cfp/">Read more about sending in your proposal</a> (deadline: March 1st)</p>
+  <p>Are you interested? We would love you hear from you: <a href="/cfp/">Read more about sending in your proposal</a></p>
   <div style="clear: both"></div>
 {{ end }}
--->
+
