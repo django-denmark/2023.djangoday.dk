@@ -8,11 +8,10 @@ draft: false
 
 # Latest updates
 
-* **October 6th, 2023**
 * [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span> ✅ 
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-success">OPEN</span> ✅ 
 * [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span> ✅
-* Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ✅ 
+* Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ⏯️
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
 Django Day Copenhagen, to be held on **October 6th**. It will be a full day of talks,
@@ -20,6 +19,11 @@ either to be experienced **online -or- at our venue**.
 
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
+
+##### 2023-08-10: First speakers announced!
+
+We're happy to announce the first names in the program! But there is still space in the program for more talks. Please submit before August 21th.
+
 
 <div style="clear: both"></div>
 

@@ -1,5 +1,5 @@
 ---
-title: "Featured speaker"
+title: "Special guest"
 date: 2023-08-08T09:45:00+02:00
 talk_date: 2022-04-08T09:45:00+02:00
 talk_by: "Sarah Boyce"
@@ -8,7 +8,7 @@ layout: "single"
 remote: false
 stage: true
 # twitter: "pauloxnet"
-description: "Featured speaker"
+description: "Special guest"
 published: true
 type: "talk"
 
