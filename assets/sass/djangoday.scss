@@ -76,16 +76,22 @@ h1
 
 .main-update {
     padding: 20px 0;
-    color: #FFF;
+    color: #000;
     font-size: 20px;
     font-weight: bold;
     font-family: $font-family-monospace;
     a {
-      color: #fff;
+      color: #000;
     }
     a:hover {
-      color: #fff;
+      color: #000;
       text-decoration: underline;
+    }
+    .emojis {
+      background-color: $success;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 4px;
     }
 }
 
@@ -165,13 +171,21 @@ ul.sponsors {
 
 .custom-navbar {
   margin-bottom: 1em;
-  height: 60px;
   background-color: $secondary;
 }
 
 .djangoday-logo
 {
-    background-color: $primary;
+    background-color: #d8e4ff;
+    .djangoday-logo-link img {
+        transform: rotate(-2deg);
+        width: 300px;
+        margin-top: -10px;
+        float: right;
+        display: block;
+//        background-color: #fff;
+        right: 0
+    }
 }
 
 .custom-navbar a {
