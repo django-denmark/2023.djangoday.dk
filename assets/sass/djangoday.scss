@@ -285,6 +285,7 @@ blockquote,
 body.some {
     h1 {
         max-width: 680px;
+        color: $primary;
     }
     nav.custom-navbar {
         display: none;
@@ -293,13 +294,14 @@ body.some {
         max-width: 1200px;
         padding: 0 30px;
     }
-    .djangoday-logo-link {
+    .djangoday-logo-link img {
         display: none;
     }
     .img-speaker {
-        margin-top: -100px;
-        border: 5px solid #fff;
-        padding: 0;
+        float: right;
+        margin-top: 0px;
+        padding: 3px;
+        width: 150px;
     }
     #footer-pony {
         margin-top: -40px;
@@ -308,8 +310,8 @@ body.some {
         margin-right: auto;
     }
     .secondary-main-header {
-        background-color: $primary;
         margin-top: -15px;
+        color: $secondary;
     }
     p {
         font-size: 32px;
@@ -319,6 +321,10 @@ body.some {
     }
     .main-update .emojis {
         display: none;
+    }
+    .pre-footer-illustration {
+      margin-top: -50px;
+      width: 54%;
     }
 }
 
