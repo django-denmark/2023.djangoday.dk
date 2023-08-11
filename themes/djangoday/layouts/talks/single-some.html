@@ -5,10 +5,20 @@
 {{- $new := "" -}}
 {{- $new = $original.Fill "400x400 Center" -}}
 
-<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
 
+<img src="/footer-illustration.svg" style="width: 46%; margin-top: -470px" class="float-right">
+
+<table style="margin-top: 30px; margin-left: 22px;">
+<tr>
+<td style="vertical-align: top">
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker" />
+</td>
+<td>
 <h1>{{ .CurrentSection.Params.talk_by }}</h1>
 <h1 class="secondary-main-header">{{ .CurrentSection.Title | markdownify }}</h1>
+</td>
+</tr>
+</table>
 
 {{- end -}}
 
