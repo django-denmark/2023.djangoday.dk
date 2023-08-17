@@ -21,7 +21,7 @@ Lightning talks:
 * Almost any topic you want
 * New speakers encouraged.
 
-The lightning talks are scheduled to take place 17:30 (but keep an eye out for changes in the schedule), at the end of Django Day on Friday April 8th. You need to [register](/tickets/) for the event.
+The lightning talks are scheduled to take place 17:30 (but keep an eye out for changes in the schedule), at the end of Django Day on Friday October 6th. You need to [register](/tickets/) for the event.
 
 Live talks at the venue: Announce your talk to an organizer before the end of the lunch break.
 
