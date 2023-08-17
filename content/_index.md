@@ -30,6 +30,8 @@ We're happy to announce the first names in the program! But there is still space
 
 # Program
 
+*The [call for participation](/cfp/) is still open and more talks will be announced!*
+
 Django Day is a full day of talks, all connected to modern issues faced
 by Django developers of all experiences. It's a single-track
 event, meaning that you won't have to miss anything. The day will end
