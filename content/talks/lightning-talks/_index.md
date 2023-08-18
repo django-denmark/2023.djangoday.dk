@@ -25,7 +25,7 @@ The lightning talks are scheduled to take place 17:30 (but keep an eye out for c
 
 Live talks at the venue: Announce your talk to an organizer before the end of the lunch break.
 
-Remote participants: It's a **maximum 5 minutes**. The 5 minutes are absolutely non-negotiable, as we cannot upload longer clips to the streaming platform. **Send a youtube link or file to info@django-denmark.org before Thursday 20:00 UTC+2.**. The talk will be reviewed.
+Remote participants: It's a **maximum 5 minutes**. The 5 minutes are absolutely non-negotiable, as we cannot upload longer clips to the streaming platform. **Send a youtube link or file to info@django-denmark.org before Tuesday 20:00 UTC+2.**. The talk will be reviewed.
 
 #### How to record
 
