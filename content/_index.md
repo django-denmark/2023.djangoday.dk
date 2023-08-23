@@ -20,9 +20,17 @@ either to be experienced **online -or- at our venue**.
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
-##### 2023-08-10: First speakers announced!
+##### 2023-08-23: Extended deadline for submitting talks 🔥️
 
-We're happy to announce the first names in the program! But there is still space in the program for more talks. Please submit before August 21th.
+Have a good idea for a talk? The deadline has been extended by a week. We need just a few more submissions to the program to make it complete! Learn how in the [CFP](/cfp/).
+
+##### 2023-08-22: More talks added ⤵️
+
+We've added 3 more talks to the [program](#program).
+
+##### 2023-08-10: First talks announced!
+
+We're happy to announce the first names of speakers and talks in the program! But there is still space in the program for more talks. Please submit before August 21th.
 
 
 <div style="clear: both"></div>
