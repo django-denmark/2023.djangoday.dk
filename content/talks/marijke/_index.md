@@ -11,6 +11,8 @@ twitter: "MHLut"
 description: "Clean up your code with quality tools"
 published: true
 type: "talk"
+fediverse: "@mahryekuh@fosstodon.org"
+fediverse_url: "https://fosstodon.org/@mahryekuh"
 
 # youtube_id: "zAKcwo5Cyw8"
 # slides: "https://docs.google.com/presentation/d/1OTI--ZQLLR3N8ixl4OktEwbXfiau_0BNXicl_3j5uYc/edit?usp=sharing"
@@ -26,3 +28,5 @@ Luckily, there are a myriad of tools that help teams write clean code and even f
 Back-end web developer, Django, HTML enthusiast. With over ten years of web development experience, Marijke (pronounced Mah-Rye-Kuh) knows her way around code. She is a big fan of future-proof coding and tries to pass on her passion to others through coaching and mentoring. 
 
 Sometimes, Marijke compares the coming to life of her code to Frankenstein’s monster (“It’s alive!”). But then to a happy Frankenstein because her code doesn’t destroy the world. At least, we hope so…
+
+Website: [https://marijkeluttekes.dev/](https://marijkeluttekes.dev/)
