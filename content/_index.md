@@ -21,7 +21,7 @@ Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
 
-##### 2023-09-06: Programming and schedule coming up
+##### 2023-09-06: Program and schedule coming up
 
 We are announcing the last talks and the final program and schedule will soon be available.
 
