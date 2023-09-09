@@ -72,6 +72,39 @@ class="img-sponsor"
 >}}
 </a></li>
 
+<li><a href="https://kolo.app/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_kolo_app.png"
+command="Fit"
+options="300x100"
+alt="Kolo.app"
+class="img-sponsor"
+>}}
+</a></li>
+
+<li>
+<a href="http://foxleytalent.com/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_foxley.png"
+command="Fit"
+options="300x100"
+alt="Foxley Talent"
+class="img-sponsor"
+>}}
+</a>
+</li>
+
+<li><a href="https://www.supplios.com/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_supplios.png"
+command="Fit"
+options="300x80"
+alt="Supplios"
+class="img-sponsor"
+>}}
+</a></li>
+
+
 </ul>
 
 <ul class="sponsors">
