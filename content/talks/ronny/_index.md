@@ -1,7 +1,7 @@
 ---
 title: "Tying up a loose end - How class-based emails will save your day"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2023-10-06T10:20:00+02:00
+talk_date: 2023-10-06T14:55:00+02:00
 talk_by: "Ronny Vedrilla"
 img_name: "ronny.jpeg"
 layout: "single"
