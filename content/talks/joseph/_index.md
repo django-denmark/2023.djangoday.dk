@@ -1,7 +1,7 @@
 ---
 title: "A minimal Django testing styleguide"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T10:20:00+02:00
 talk_by: "Joseph Victor Zammit"
 img_name: "joseph.jpeg"
 layout: "single"
