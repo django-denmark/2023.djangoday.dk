@@ -76,7 +76,7 @@ class="img-sponsor"
 {{< imgProc
 img="logo_kolo_app.png"
 command="Fit"
-options="300x100"
+options="300x80"
 alt="Kolo.app"
 class="img-sponsor"
 >}}
@@ -87,7 +87,7 @@ class="img-sponsor"
 {{< imgProc
 img="logo_foxley.png"
 command="Fit"
-options="300x100"
+options="300x80"
 alt="Foxley Talent"
 class="img-sponsor"
 >}}
