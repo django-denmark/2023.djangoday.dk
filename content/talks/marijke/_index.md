@@ -1,7 +1,7 @@
 ---
 title: "Clean up your code with quality tools"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T10:55:00+02:00
 talk_by: "Marijke Luttekes"
 img_name: "marijke.jpeg"
 layout: "single"

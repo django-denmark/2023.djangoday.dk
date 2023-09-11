@@ -1,7 +1,7 @@
 ---
 title: "Taming rich text content in Django"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T16:10:00+02:00
 talk_by: "Paris Kasidiaris"
 img_name: "paris.jpeg"
 layout: "single"

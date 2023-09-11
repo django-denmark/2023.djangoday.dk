@@ -1,7 +1,7 @@
 ---
 title: "Privilege-separated installation of many Django applications on the same host"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T13:35:00+02:00
 talk_by: "rm"
 img_name: "rm.jpeg"
 layout: "single"

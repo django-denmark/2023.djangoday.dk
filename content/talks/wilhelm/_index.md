@@ -1,7 +1,7 @@
 ---
 title: "How to spend less time writing tests"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T14:20:00+02:00
 talk_by: "Wilhelm Klopp"
 img_name: "wilhelm.jpeg"
 layout: "single"

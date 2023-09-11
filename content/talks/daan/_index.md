@@ -1,7 +1,7 @@
 ---
 title: "The journey of a Django application: from startup, to scale up, to enterprise"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T13:00:00+02:00
 talk_by: "Daan Vielen"
 img_name: "daan.jpeg"
 layout: "single"

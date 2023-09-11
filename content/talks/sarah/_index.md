@@ -1,7 +1,7 @@
 ---
 title: "Djangonaut Space - Launch!"
 date: 2023-08-08T09:45:00+02:00
-talk_date: 2022-04-08T09:45:00+02:00
+talk_date: 2023-10-06T09:45:00+02:00
 talk_by: "Sarah Boyce"
 img_name: "sarah.jpeg"
 layout: "single"

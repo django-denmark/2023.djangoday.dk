@@ -1,7 +1,7 @@
 ---
 title: "Unlocking the Django Job Market: Strategies for Developers and Employers"
 date: 2023-08-08T10:45:00+02:00
-talk_date: 2022-04-08T10:45:00+02:00
+talk_date: 2023-10-06T16:45:00+02:00
 talk_by: "Jon Gould"
 img_name: "jon.jpeg"
 layout: "single"
