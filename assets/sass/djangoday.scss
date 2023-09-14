@@ -46,6 +46,8 @@
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 $font-family-monospace: 'Roboto Mono', monospace;
 
+$font-size-base: 1.1rem;
+
 //$font-size-base: 1.05rem;
 
 $primary: #DA4167;
@@ -61,6 +63,14 @@ $dark:   #00120B;
 body, html {
   min-width: 300px;
   height:100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 900px;
 }
 
 h1, h2, h3, h4, h5
@@ -113,14 +123,6 @@ footer
     }
 
    min-height:100px;   /* Height of the footer */
-}
-
-#article
-{
-    min-height: 70%;
-    min-height: -webkit-calc(100% - 300px);
-    min-height: -moz-calc(100% - 300px);
-    min-height: calc(100% - 300px);
 }
 
 .img-speaker
@@ -181,6 +183,7 @@ ul.sponsors {
         transform: rotate(-2deg);
         width: 300px;
         margin-top: -10px;
+        margin-right: -20px;
         float: right;
         display: block;
 //        background-color: #fff;
@@ -214,6 +217,11 @@ ul.sponsors {
 
 article {
   padding-bottom: 1em;
+  
+  p {
+    max-width: 700px;
+  }
+  
 }
 
 img {
@@ -239,10 +247,6 @@ a:focus {
 
 a h2 {
     color: #212529;
-}
-
-.container {
-  max-width: 800px;
 }
 
 pre {
