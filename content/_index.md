@@ -70,6 +70,16 @@ class="img-sponsor"
 >}}
 </a></li>
 
+<li><a href="https://ofir.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_ofir.png"
+command="Fit"
+options="300x80"
+alt="AO"
+class="img-sponsor"
+>}}
+</a></li>
+
 <li>
 <a href="http://foxleytalent.com/" target="_blank" class="sponsor">
 {{< imgProc
