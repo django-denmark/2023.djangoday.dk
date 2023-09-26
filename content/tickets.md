@@ -32,9 +32,7 @@ When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
 All of this is with no additional costs.
 
-*After September 1st, the price of a venue ticket will be DKK 750*
-
-<a class="btn btn-lg btn-primary" href="https://djangodenmark.ticketbutler.io/e/django-day-copenhagen-2023" target="_blank">Individual ticket - DKK 550</a>
+<a class="btn btn-lg btn-primary" href="https://djangodenmark.ticketbutler.io/e/django-day-copenhagen-2023" target="_blank">Individual ticket - DKK 750</a>
 
 
 ## Corporate Supporters
