@@ -52,7 +52,7 @@ We use a professional setup for recording and streaming the event.
 ### Inclusion 🌈️
 
 **Economic inclusion** is a major factor.
-While other events, easily cost up to 5x the price for a day-long ticket, we have found ways to keep the prices of venue and catering low.
+While other IT conferences easily cost up to 10x the price for a 1-day ticket, we have found ways to keep the prices of venue and catering low.
 In addition to that, everyone (including speakers) are volunteering.
 
 We also want to be **beginner-friendly**,
