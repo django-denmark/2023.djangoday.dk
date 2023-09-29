@@ -75,10 +75,24 @@ class="img-sponsor"
 img="logo_ofir.png"
 command="Fit"
 options="300x80"
-alt="AO"
+alt="Ofir"
 class="img-sponsor"
 >}}
 </a></li>
+
+
+<li>
+<a href="https://www.magenta.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="logo_magenta.png"
+command="Fit"
+options="300x80"
+alt="Magenta"
+class="img-sponsor"
+>}}
+</a>
+</li>
+
 
 <li>
 <a href="http://foxleytalent.com/" target="_blank" class="sponsor">
