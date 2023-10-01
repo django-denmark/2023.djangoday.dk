@@ -8,9 +8,9 @@ draft: false
 
 # Latest updates
 
-* [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span> ✅ 
-* [Call for Participation](/cfp/) <span class="badge badge-pill badge-dark">CLOSED</span> ✅ 
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span> ✅
+* [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span>
+* [Call for Participation](/cfp/) <span class="badge badge-pill badge-dark">CLOSED</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">LATE BIRD + STREAMING</span>
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ⏯️
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
@@ -20,6 +20,11 @@ either to be experienced **online -or- at our venue**.
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
+
+##### 2023-10-01: Late bird 🐣️
+
+We have a little improvisation to announce: If you didn't get a ticket and still want to come, we are opening up sales of [Late Bird tickets](/tickets/).
+You may have heard the saying "early bird gets the worm" - in this case, the late bird doesn't get food but is still most welcome!
 
 ##### 2023-09-11: Full program and schedule ⤵️
 
