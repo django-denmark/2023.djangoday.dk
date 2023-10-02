@@ -72,7 +72,7 @@ That's why there's a [Code of Conduct](/conduct/) which we take seriously.
 ### Non-profit 💸️
 
 We've managed to hit break-even somewhat with all Django Day Copenhagen events.
-Our main financial resource was build by hosting DjangoCon Europe 2023.
+Our main financial resource was build by hosting DjangoCon Europe 2019.
 
 We're pretty happy about the current setup since we can say that Django Day Copenhagen is a sustainable activity in itself and definitely has some potential to raise more funds that can support speaker travel.
 
