@@ -10,7 +10,7 @@ draft: false
 * Streaming tickets: No deadline
 * Early bird: Friday September 1 23:59 UTC+2 <span class="badge badge-pill badge-warning">CLOSED</span>
 * Venue tickets: Friday September 29 23:59 UTC+2 <span class="badge badge-pill badge-warning">CLOSED</span>
-* Late Bird: Wednesday October 3 23:59 UTC+2 <span class="badge badge-pill badge-success">OPEN</span>
+* Late Bird: Wednesday October 4 23:59 UTC+2 <span class="badge badge-pill badge-success">OPEN</span>
 
 Notice that the event can sell out due to the size of the venue.
 
