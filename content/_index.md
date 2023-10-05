@@ -6,6 +6,15 @@ draft: false
 
 ---
 
+# Live stream
+
+<div style="background: #eee; border-radius: 30px; width: 100%; height: 400px; font-size: 30px; font-weight: bold; color: #aaa; 
+  display: flex;
+  align-items: center;
+  justify-content: center;">
+    <div style="margin: auto">Watch this space from 9:30 AM UTC+2</div>
+</div>
+
 # Latest updates
 
 * [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span>
