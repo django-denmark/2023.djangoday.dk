@@ -30,3 +30,8 @@ Most of the time my roles were “backend”. Where working with data and relati
 From ‘08 onwards I worked a lot with Python. And the framework I worked with most is Django.
 
 Website: [https://www.untangled.dev/](https://www.untangled.dev/)
+
+## Talk references
+
+* Full references page: [https://www.untangled.dev/2023/10/06/talk-djangoday-cph-23/](https://www.untangled.dev/2023/10/06/talk-djangoday-cph-23/)
+* Github repo with code samples: [https://github.com/jvzammit/cph23](https://github.com/jvzammit/cph23)
