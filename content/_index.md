@@ -8,12 +8,9 @@ draft: false
 
 # Live stream
 
-<div style="background: #eee; border-radius: 30px; width: 100%; height: 400px; font-size: 30px; font-weight: bold; color: #aaa; 
-  display: flex;
-  align-items: center;
-  justify-content: center;">
-    <div style="margin: auto">Watch this space from 9:30 AM UTC+2</div>
-</div>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nYS2ISvPSf4?si=qgmRou5aB_Gvmj8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Can't see an iframe above? [Open on Youtube](https://www.youtube.com/watch?v=nYS2ISvPSf4).
 
 # Latest updates
 
