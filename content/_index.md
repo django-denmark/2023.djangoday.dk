@@ -10,6 +10,8 @@ draft: false
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nYS2ISvPSf4?si=qgmRou5aB_Gvmj8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Can't see an iframe above? [Open on Youtube](https://www.youtube.com/watch?v=nYS2ISvPSf4).
+
 # Latest updates
 
 * [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span>
