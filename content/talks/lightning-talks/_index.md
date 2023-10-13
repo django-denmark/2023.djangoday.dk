@@ -10,7 +10,8 @@ stage: false
 description: "Streaming/remote 5 minute lightning talks at Django Day Copenhagen"
 type: "talk"
 published: true
-#youtube_id: "lAXjc9Jk5Ho"
+
+youtube_id: "acQdzpt68Fk"
 ---
 
 ⚡⚡⚡ Announcing streaming/remote 5 minute lightning talks at Django Day Copenhagen ⚡⚡⚡

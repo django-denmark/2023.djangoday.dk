@@ -6,17 +6,12 @@ draft: false
 
 ---
 
-# Live stream
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/nYS2ISvPSf4?si=qgmRou5aB_Gvmj8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Can't see an iframe above? [Open on Youtube](https://www.youtube.com/watch?v=nYS2ISvPSf4).
-
 # Latest updates
 
+* [Videos uploaded](#program) <span class="badge badge-pill badge-success">DONE</span>
 * [Venue: Union, Copenhagen](/venue/) <span class="badge badge-pill badge-success">BOOKED</span>
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-dark">CLOSED</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">LATE BIRD + STREAMING</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-dark">CLOSED</span>
 * Looking for Django Day 2022 videos? [Find them here](https://2022.djangoday.dk/#program) ⏯️
 
 Djangonauts from in and around Denmark are meeting up for the fourth edition of
@@ -27,14 +22,9 @@ Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
 
-##### 2023-10-01: Late bird 🐣️
+##### 2023-10-10: Videos 📽️
 
-We have a little improvisation to announce: If you didn't get a ticket and still want to come, we are opening up sales of [Late Bird tickets](/tickets/).
-You may have heard the saying "early bird gets the worm" - in this case, the late bird doesn't get food but is still most welcome!
-
-##### 2023-09-11: Full program and schedule ⤵️
-
-Check out our [program](#program) for a schedule with all the talks.
+All videos are uploaded and each can be viewed by clicking a talk in the [program below ⤵️](#program).
 
 
 <div style="clear: both"></div>
