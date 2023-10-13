@@ -18,11 +18,16 @@ stage 🎤
 </h5>
 
 <p>
-{{ if .Params.twitter }}
-<a href="https://twitter.com/{{ .Params.twitter }}" target="_blank">🐦 @{{ .Params.twitter }}</a>
+{{ if .Params.fediverse_url }}
+<div><a href="{{ .Params.fediverse_url }}" target="_blank">🐘️ {{ .Params.fediverse }}</a></div>
 {{ end }}
+
+{{ if .Params.twitter }}
+<div><a href="https://twitter.com/{{ .Params.twitter }}" target="_blank">🐦 @{{ .Params.twitter }}</a></div>
+{{ end }}
+
 {{ if .Params.slides }}
-<a href="{{ .Params.slides }}" target="_blank">🎞️ View slides</a>
+<div><a href="{{ .Params.slides }}" target="_blank">🎞️ View slides</a></div>
 {{ end }}
 </p>
 
