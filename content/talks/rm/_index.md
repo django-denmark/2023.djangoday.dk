@@ -12,7 +12,11 @@ description: "Privilege-separated installation of many Django applications on th
 published: true
 type: "talk"
 
-# youtube_id: "zAKcwo5Cyw8"
+youtube_id: "nWH-9kk5tac"
+
+fediverse: "@rm@norrebro.space"
+fediverse_url: "https://norrebro.space/@rm"
+
 # slides: "https://docs.google.com/presentation/d/1OTI--ZQLLR3N8ixl4OktEwbXfiau_0BNXicl_3j5uYc/edit?usp=sharing"
 # notes: "andrew.jpeg"
 ---
