@@ -1,0 +1,368 @@
+#!/usr/bin/env sent
+
+Privilege-separated installation
+of many Django applications
+on the same host
+
+Simplicity is a great virtue
+but it requires hard work to achieve it
+and education to appreciate it.
+And to make matters worse:
+complexity sells better.
+                  -- Edsger W. Dijkstra
+
+I'm not getting paid today:
+Good, simple software I like to use
+(mostly OpenBSD)
+\
+Professional services are available:
+Bad, complex software that sells
+
+Promotion, today only:
+Ask how to do this with other softwares
+
+rm$ ./manage.py runserver
+
+\# OpenBSD
+rm$ ftp -o - http://127.0.0.1:8000
+
+rm$ python -m gunicorn example.wsgi
+
+\# OpenBSD
+rm$ ftp -o - http://127.0.0.1:8000
+
+rm$ python -m gunicorn bornhack.wsgi
+
+\# OpenBSD
+rm$ ftp -o - http://127.0.0.1:8000
+
+USERS
+
+\# OpenBSD
+root# user add -d /home/bornhack -m bornhack
+
+bornhack$ python -m gunicorn bornhack.wsgi
+
+\# OpenBSD
+rm$ ftp -o - http://127.0.0.1:8000
+
+bornhack$ python -m gunicorn bornhack.wsgi \
+  --bind 127.0.0.1:2003
+
+\# OpenBSD
+rm$ ftp -o - http://127.0.0.1:2003
+
+SERVICES
+start on boot, report crashes, &c.
+
+rc.subr (OpenBSD):
+/etc/rc.d/bornhack
+
+\#!/bin/ksh
+web_port=2003
+\
+daemon=/home/bornhack/.local/bin/python
+daemon_user=bornhack
+daemon_flags="-m gunicorn bornhack.wsgi --pythonpath /home/bornhack/src --daemon --bind 127.0.0.1:$web_port"
+. /etc/rc.d/rc.subr
+rc_bg=NO
+\
+rc_cmd $1
+
+\# rc.conf.local (OpenBSD)
+root# rcctl enable bornhack
+
+\# simplified crontab
+@hourly rcctl ls failed
+
+rm$ ftp -o - http://127.0.0.1:2003
+
+PRETTY URLS
+
+rm$ ftp -o - https://bornhack.example.com
+
+REVERSE PROXY
+remote web browser
+            \/
+relayd tcp/443
+            \/
+gunicorn tcp/2003
+
+\# relayd.conf (OpenBSD)
+table <bornhack> { 127.0.0.1 }
+log state changes
+log connection
+http protocol "user" {
+  tcp { backlog 100, nodelay, sack, socket buffer 65536 }
+  match request header set "X-Forwarded-For" value "$REMOTE_ADDR"
+  match request header set "X-Forwarded-By" value "$SERVER_ADDR:$SERVER_PORT"
+  block
+  pass request quick header "Host" value "bornhack.example.com" forward to <bornhack>
+  tls { keypair example.com }
+}
+relay "proxy" {
+  listen on 0.0.0.0 port 443 tls
+  protocol "user"
+  forward to <bornhack> port 2003
+}
+
+\# relayd.conf (OpenBSD)
+table <bornhack> { 127.0.0.1 }
+\
+\
+\
+\
+\
+\
+\
+  pass request quick header "Host" value "bornhack.example.com" forward to <bornhack>
+\
+\
+\
+  listen on 0.0.0.0 port 443 tls
+\
+  forward to <bornhack> port 2003
+\
+
+\# relayd.conf (OpenBSD)
+table <bornhack> { 127.0.0.1 }
+table <foo> { 127.0.0.1 }
+table <bar> { 127.0.0.1 }
+\
+\
+\
+\
+  pass request quick header "Host" value "bornhack.example.com" forward to <bar>
+  pass request quick header "Host" value "bornhack.example.com" forward to <bornhack>
+  pass request quick header "Host" value "bornhack.example.com" forward to <foo>
+\
+\
+  listen on 0.0.0.0 port 443 tls
+  forward to <bar> port 2002
+  forward to <bornhack> port 2003
+  forward to <foo> port 2068
+
+remote web browser
+            \/
+relayd tcp/443
+            \/
+bar tcp/2002
+
+remote web browser
+            \/
+relayd tcp/443
+            \/
+bornhack tcp/2003
+
+\# hosts file
+root# echo 127.0.0.1 bar.example.net >> /etc/hosts
+root# echo 127.0.0.1 bornhack.example.com >> /etc/hosts
+root# echo 127.0.0.1 foo.example.org >> /etc/hosts
+rm$ ftp -o - https://bornhack.example.com
+
+
+FIREWALL
+
+PASS
+remote web browser
+            \/
+relayd tcp/443
+            \/
+gunicorn tcp/2003
+
+BLOCK
+user bornhack
+            \/
+bar website tcp/2002
+
+BLOCK
+user bar
+            \/
+bornhack website tcp/2003
+
+BLOCK
+user bornhack
+            \/
+relayd tcp/443
+
+BLOCK
+user bornhack
+            \/
+DNS server udp/53
+
+BLOCK
+user bornhack
+            \/
+https://djangoday.dk tcp/443
+
+pf.conf (OpenBSD)
+
+\# block a lot by default
+pass
+block return in proto { tcp udp } to self user > 0
+block return out log proto { tcp udp } from self user > 115
+
+\# listen locally on Django ports
+pass in proto tcp from self to self port 2002 user bar
+pass in proto tcp from self to self port 2003 user bornhack
+pass in proto tcp from self to self port 2068 user foo
+...
+\# relayd runs as root
+
+SUMMARY OF FIREWALL
+\
+Allow this:
+\
+remote web browser
+            \/
+relayd tcp/443
+            \/
+gunicorn tcp/2003
+\
+Block all other tcp/udp
+
+
+POLITICS
+Let's take a break
+from configuration files
+and talk about licensing
+
+# GNU:
+# * copyleft
+# * explicitly political movement
+
+GNU:
+Free software means users have
+the four essential freedoms:
+(0) to run the program
+(1) to study and change the program
+    in source code form,
+(2) to redistribute exact copies, and
+(3) to distribute modified versions.
+
+# OpenBSD:
+# * permissive
+# * public service
+
+OpenBSD:                                                              
+People sometimes ask if it bothers us that our
+free work is put into commercial products.
+The answer is, we would prefer that our good
+code be widely used rather than have
+commercial software vendors reimplement and
+create badly coded or incompatible alternative
+solutions to already solved problems.
+
+My opinion
+* I like freedom.
+* OpenBSD works better.
+* I contribute very little. I might require
+  copyleft if I contributed more.
+* I understand which OpenBSD components are
+  non-free, and I know how to avoid them.
+
+OpenBSD is not free according to FSF.
+https://www.gnu.org/distros/free-system-distribution-guidelines.html
+\
+Non-free OpenBSD components
+* ports (build from source) can be non-free.
+* fw_update(8) can install non-free firmware.
+
+Back to configuration
+
+DATABASE
+
+Option 1: Files
+* Separate SQLite3 per application
+* PostgreSQL socket permissions
+  (/tmp/.s.PGSQL.5432 by default)
+
+Option 2: TCP
+* Firewall rules (allow 5432/tcp)
+
+INSTALLING PACKAGES
+pip, &c.
+
+\# No need for virtual environment
+\# since the user only has one project
+bornhack$ pip install --user Django
+
+bornhack$ pip install --user Django
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) ...
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) ...
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) ...
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) ...
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) ...
+ERROR: Could not find a version that satisfies the requirement Django (from versions: none)
+ERROR: No matching distribution found for Django
+
+\# Option 1: More firewall rules
+table <pypi> { pypi.org pypi.python.org files.pythonhosted.org
+            download.sourceforge.net download.savannah.gnu.org }
+block return out log proto { tcp udp } from self user > 115
+pass out proto tcp from self to <pypi> port https user bornhack
+\# I also use anchor, but that is too much text for right now.
+
+\# Option 2: Build as another user
+\
+bornhack$ rm -Rf ~/.local
+\
+install$ python -m venv ~/bornhack
+install$ . ~/bornhack/bin/activate
+install$ pip install -r requirements.txt
+\
+root# chown -R bornhack:bornhack ~/bornhack
+root# mv ~install/bornhack ~bornhack/.local
+
+ONE BIG UNIX SYSTEM
+
+Communication between users:
+users and groups
+
+root# user mod -G bigwebsite searchengine
+bigwebsite$ chmod g+x /home/bigwebsite
+bigwebsite$ chmod -R g+rX /home/bigwebsite/media
+searchengine$ recollindex -i /home/bigwebsite/media
+
+Communication between users:
+doas (OpenBSD)
+
+\# doas.conf
+\
+\# Imagine flame receives commands for operating a flamethrower drone.
+permit nopass keepenv bornhack as flame cmd /home/flame/bin/flame args move_to_speaker_tent
+permit nopass keepenv bornhack as flame cmd /home/flame/bin/flame args move_to_bar
+
+\# some Python file in bornhack project
+def flame_speaker_tent() -> str:
+    subprocess.run(["doas", "-u", "flame", "flame", "move_to_speaker_tent"], check=True)
+\
+def flame_bar() -> str:
+    subprocess.run(["doas", "-u", "flame", "flame", "move_to_bar"], check=True)
+
+SUMMARY
+
+* development server
+* gunicorn
+* users
+* services (rc.d, rc.subr)
+* relay, tls (relayd)
+* figuration of the firewall (pf),
+* database (postgresql),
+* inter-user communication approaches (groups, relayd, doas)
+* package installation (pip, with and without venv),
+* configuration of wsgi servers as daemons (rc.d and rc.subr).
+\
+skipped
+* inter-user communication approaches (postgresql)
+* alignment of environment and shell
+* alignment of configuration across hosts
+* configurations across the users
+
+There are two ways of constructing a
+software design: One way is to make it
+so simple that there are obviously no
+deficiencies, and the other way is
+to make it so complicated that there are
+no obvious deficiencies.
+                -- C. A. R. Hoare

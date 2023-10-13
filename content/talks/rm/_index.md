@@ -17,7 +17,7 @@ youtube_id: "nWH-9kk5tac"
 fediverse: "@rm@norrebro.space"
 fediverse_url: "https://norrebro.space/@rm"
 
-# slides: "https://docs.google.com/presentation/d/1OTI--ZQLLR3N8ixl4OktEwbXfiau_0BNXicl_3j5uYc/edit?usp=sharing"
+slides: "slides.txt"
 # notes: "andrew.jpeg"
 ---
 

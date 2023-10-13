@@ -14,7 +14,7 @@ type: "talk"
 
 youtube_id: "iFM8DZaeM_M"
 
-# slides: "https://docs.google.com/presentation/d/1OTI--ZQLLR3N8ixl4OktEwbXfiau_0BNXicl_3j5uYc/edit?usp=sharing"
+slides: "slides.pdf"
 # notes: "andrew.jpeg"
 ---
 
